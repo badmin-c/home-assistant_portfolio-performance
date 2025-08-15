@@ -1,13 +1,11 @@
 {
   "domain": "pp_portfolio",
   "name": "Portfolio Performance (CSV/XML/.portfolio/Depotumsätze + Live Prices)",
-  "version": "0.3.2",
-  "requirements": [
-    "yahooquery>=2.3.7"
-  ],
-  "codeowners": [
-    "@yourname"
-  ],
+  "version": "0.3.3",
+  "documentation": "https://github.com/yourname/pp_portfolio",
+  "codeowners": ["@yourname"],
+  "iot_class": "local_polling",
   "config_flow": true,
-  "iot_class": "local_polling"
+  "homeassistant": "2023.9.0",
+  "requirements": []
 }
