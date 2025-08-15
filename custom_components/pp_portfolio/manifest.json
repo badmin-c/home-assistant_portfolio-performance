@@ -1,0 +1,12 @@
+{
+  "domain": "pp_portfolio",
+  "name": "Portfolio Performance (CSV/XML/.portfolio)",
+  "version": "0.1.9",
+  "documentation": "https://example.invalid/pp_portfolio",
+  "iot_class": "local_polling",
+  "codeowners": [
+    "@frank-v"
+  ],
+  "config_flow": true,
+  "homeassistant": "2023.9.0"
+}
